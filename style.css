@@ -1,0 +1,363 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+span {
+	color: #c53e29;
+	font-weight: bold;
+
+}
+
+.navbar {
+	background: #0d1017;
+}
+
+
+.navbar-nav a {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.social-icon ul {
+  list-style-type: none;
+}
+
+.social-icon i {
+  color: #58595b;
+}
+
+/*end of navbar*/
+
+/*Landing*/
+
+.main {
+	background-color: #0d1017;
+	height: 94vh;
+	font-family: 'Bebas Neue', sans-serif;
+	padding-top: 60px ;
+
+}
+
+.main h1 {
+	font-size: 6.5rem;
+	margin-top: 100px;
+	font-weight: bold;
+	font-family: 'Bebas Neue', sans-serif;
+	color: ghostwhite;
+
+}
+
+.main h6
+{
+	font-family: 'Bebas Neue', sans-serif;
+	color: #55231c;
+	font-size: 25px;
+}
+
+.main p {
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+.main h2 {
+	font-family: 'Bebas Neue', sans-serif;
+	color: #7c2c24;
+}
+
+img {
+	width: 700px;
+
+}
+#text {
+	padding-left: 80px ;
+}
+
+
+/*
+	PROJECTS
+*/
+
+#projects {
+	background-color: #0d1017;
+
+}
+
+.title2 {
+	font-family: 'Six Caps', sans-serif;
+	color: whitesmoke;
+	font-weight: bolder;
+	font-size: 95px;
+	text-shadow: 0 0 15px black;
+}
+
+#projects h6 {
+	font-family: 'Zilla Slab', serif;
+	color: antiquewhite;
+	font-size: 18px;
+}
+
+.proj img {
+	border-radius: 20px;
+	height: 500px;
+	width: 800px;
+	margin-bottom: 80px;
+	filter: grayscale();
+	transition: filter 0.4s ease-in-out;
+	box-shadow: 0 0 25px black;'
+
+}
+
+.proj img:hover {
+	filter: none;
+	cursor: pointer;
+}
+
+.proj h1 {
+	font-family: 'Bebas Neue', sans-serif;
+	color: #c53e29;
+	font-size: 45px;
+	text-shadow: 0 0 15px black;
+
+}
+
+
+/*Tools*/
+
+#tools {
+	background-color: #0d1017;
+}
+
+
+.carousel-item img {
+	width: 250px;
+	height: auto;
+	box-shadow: 0 0 1px black;
+	border-radius: 25px;
+	cursor: pointer;
+	filter: grayscale();
+	transition: filter 0.4s ease-in-out;
+
+}
+
+.carousel-item img:hover {
+	filter: none;
+	cursor: pointer;
+}
+
+.title3 {
+	font-family: 'Six Caps', sans-serif;
+	color: whitesmoke;
+	font-weight: bolder;
+	font-size: 5em;
+	letter-spacing: 2px;
+	text-shadow: 0 0 25px black;
+}
+
+
+/*Contact Us*/
+
+#contact {
+/*	background-color: #0d1017;*/
+}
+
+.top img{
+    height: 50vh;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.top h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    color: aliceblue;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 130px;
+    font-weight: bold;
+    text-shadow: 0 0 15px black;
+}
+
+.top h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 0 0 15px black;
+    font-weight: normal;
+}
+
+/*left side*/
+.container{
+	background-color:  #0d1017;
+}
+.contact {
+    display: block;
+    margin-top: 80px;
+    height: 75vh;
+    background-color:#0d1017;
+}
+
+.container{
+    margin-top: 30px;
+    width: 85%;
+    background: rgba(39,46,62,255);
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container .content .left-side{
+   
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+  .content .left-side::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: gray;
+    box-shadow: 0 0 10px black;
+  }
+
+  .content .left-side .topic-text{
+    font-family: "Titillium Web",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    color: #fff;
+    border-bottom: 2px solid #458644;
+    width: 125px;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+  }
+
+  .content .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+  .content .left-side .details i{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two{
+    font-size: 14px;
+    color: #afafb6;
+  }
+
+  .container .content .right-side{
+    width: 75%;
+    margin-left: 45px;
+    margin-top: 2px;
+  }
+
+
+.right-side form .row {
+    margin-top: 20px;
+}
+
+.right-side form label {
+    font-family: "Titillium Web",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #afafaf; 
+}
+.right-side form input {
+    border: 0;
+    border-bottom: 1px solid #4a5777;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    font-family: "Titillium Web",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 0;
+    line-height: 24px;
+    color: #6a6a6a;
+    box-sizing: border-box;
+    outline: 0;
+    background: 0 0;
+    color: #dadada;
+    
+}
+
+.right-side form textarea {
+    margin-top: 8px;
+    border: 0;
+    border-bottom: 1px solid #cecece;
+    font-family: "Titillium Web",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6a6a6a;
+    resize: none;
+    display: block;
+    width: 95%;
+    height: 180px;
+    outline: 0;
+    background: 0 0;
+    color: #dadada;
+}
+
+button {
+    padding: 1em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgba(46, 229, 157, 0.4);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;    
+}
+  
+button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 10px 15px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-1px);
+}
+  
+button:active {
+    transform: translateY(-1px);
+}
+
+/*footer*/
+
+footer {
+	background-color:  #0d1017;
+
+}
